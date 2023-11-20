@@ -1,0 +1,48 @@
+
+body {
+  height: 100vh;
+  background-image: url('/assets/got-home.jpg');
+  background-size: cover; 
+  margin: 0; 
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+mat-toolbar {
+  height: 100px;
+  background: transparent; 
+  color: #6e0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 10px 3px rgba(83, 83, 83, 0.6);
+}
+
+mat-toolbar > a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+mat-toolbar button,
+.headerbutton {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 5px 20px;
+  outline: none;
+}
+
+
+mat-toolbar button:hover,
+.headerbutton:hover {
+  background-color: transparent; 
+}

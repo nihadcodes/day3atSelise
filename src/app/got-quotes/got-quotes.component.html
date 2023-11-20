@@ -1,0 +1,15 @@
+
+<div fxLayout="row wrap">
+    <div class="card" *ngFor="let quote of gotQuotes">
+      <mat-card class="mat-card">
+        <mat-card-content>
+          <div class="quote">{{ quote.sentence }}</div>
+          <div class="field-name">House Name: {{ quote.character.house.name }}</div>
+          <div class="field-name">House Slug: {{ quote.character.house.slug }}</div>
+          <div class="field-name">Character Name: {{ quote.character.name }}</div>
+          <div class="field-name">Character Slug: {{ quote.character.slug }}</div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  
